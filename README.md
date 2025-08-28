@@ -8,18 +8,25 @@ Nuestro equipo seguirá el flujo de trabajo GitFlow, el cual nos permitirá mant
 RAMAS PRINCIPALES
 
 main: contiene siempre la última versión estable y lista para producción.
+
 develop: rama base donde se integran las nuevas funcionalidades antes de pasar a producción.
 
 RAMAS DE SOPORTE
 
 feature/: usadas para desarrollar nuevas funcionalidades.
 Se crean desde develop.
+
 hotfix/: usadas para corregir errores críticos en main. Se crean desde main.
 Ejemplo: hotfix/fix-auth-bug.
+
 Al finalizar, se integran tanto a main como a develop.
+
 release/: usadas para preparar una nueva versión estable.
+
 Se crean desde develop.
+
 Se realizan pruebas, documentación y ajustes.
+
 Al finalizar, se fusionan en main y develop.
 
 Flujo de trabajo
