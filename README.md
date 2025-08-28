@@ -1,14 +1,14 @@
 # Ufocus
 Aplicativo movil
 
-#Flujo de ramas
+Flujo de ramas
 Nuestro equipo seguirá el flujo de trabajo GitFlow, el cual nos permitirá mantener una organización clara entre las ramas de desarrollo, nuevas funcionalidades y versiones en producción.
 
-#RAMAS PRINCIPALES
+RAMAS PRINCIPALES
 main: contiene siempre la última versión estable y lista para producción.
 develop: rama base donde se integran las nuevas funcionalidades antes de pasar a producción.
 
-#RAMAS DE SOPORTE
+RAMAS DE SOPORTE
 feature/: usadas para desarrollar nuevas funcionalidades.
 Se crean desde develop.
 hotfix/: usadas para corregir errores críticos en main. Se crean desde main.
@@ -19,7 +19,7 @@ Se crean desde develop.
 Se realizan pruebas, documentación y ajustes.
 Al finalizar, se fusionan en main y develop.
 
-#Flujo de trabajo
+Flujo de trabajo
 1. Crear rama feature/nueva-funcionalidad desde develop.
 2. Desarrollar y probar localmente.
 3. Abrir un Pull Request hacia develop.
